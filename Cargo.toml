@@ -1,0 +1,10 @@
+[package]
+name = "zelda_like"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = "0.15.2"
+bevy_ecs_ldtk = "0.11.0"
+bevy_modern_pixel_camera = "0.2.0"
+bevy_rapier2d = { version="0.28.0", features=["debug-render-2d", "simd-stable"] }
